@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "export PATH=/home/$USER/.usr-settings/bin:$PATH;" >> /home/$USER/.bashrc;
+
+echo "
+
+====== \$PATH ~/home/$USER/.usr-settings/bin/ added =======
+
+";
+

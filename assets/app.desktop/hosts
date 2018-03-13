@@ -1,0 +1,16 @@
+127.0.0.1	localhost
+127.0.1.1	lganesha.net
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+127.0.0.2       praxis.me
+127.0.0.3	laravel.me
+127.0.0.4	lganesha.me
+127.0.0.5	hikejava.com
+127.0.0.6	perpusweb.me
+127.0.0.7	larasia.me
+127.0.0.8	l5sismaster.me
+

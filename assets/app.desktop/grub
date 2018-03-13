@@ -1,0 +1,14 @@
+GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
+GRUB_DEFAULT=saved
+GRUB_DISABLE_SUBMENU=true
+GRUB_TERMINAL_OUTPUT="console"
+GRUB_CMDLINE_LINUX="rd.lvm.lv=fedora_localhost/root00 rd.lvm.lv=fedora_localhost/swap rhgb quiet"
+GRUB_DISABLE_RECOVERY="true"
+
+# SET BACKGROUND
+GRUB_BACKGROUND="/boot/grub2/grub_background.jpg"
+export GRUB_COLOR_NORMAL="white/black"
+export GRUB_COLOR_HIGHLIGHT="blue/black"
+GRUB_GFXMODE="1280x800"
+GRUB_SAVEDEFAULT="false"

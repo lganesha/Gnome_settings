@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Thunderbird
+Exec=/opt/thunderbird/thunderbird
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=thunderbird
+Categories=Network;Mail;
+StartupWMClass=Thunderbird
+StartupNotify=true
