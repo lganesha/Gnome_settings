@@ -1,25 +1,5 @@
 #!/bin/bash
 
-
-# SHORTCUT
-set-keyshortcut;
-
-
-# Appearance
-
-#set gtk theme
-gsettings set org.gnome.desktop.interface gtk-theme 'OSX-Arc-Shadow';
-
-#set shell theme
-gsettings set org.gnome.shell.extensions.user-theme name 'Mist-3.20';
-
-#set icon
-gsettings set org.gnome.desktop.interface icon-theme 'Flat Remix';
-
-
-
-
-
 # Desktop
 
 #wallpaper
