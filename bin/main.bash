@@ -11,6 +11,9 @@ runSetter(){
         chmod +x $rS_setter_file
         $rS_setter_dir/./$1
         chmod -x $rS_setter_file
+        rS_setter=""
+        echo -ne "${SYS}set other things ? type setter name ... "; read rS_setter
+        runConfirmation true $rS_setter ""
     else
         echo $rS_setter_file;
         rS_setter=""
