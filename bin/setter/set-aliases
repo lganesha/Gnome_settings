@@ -1,5 +1,19 @@
 #!/bin/bash
 
+OUT='\033[0;31m'
 if [ -f ~/.bash_aliases ]; then
-	. ~/.bash_aliases
+	echo -ne "${OUT}aliases has been set."
+else
+	touch /home/$USER/.bash_aliases;
+
+echo "
+#!/bash
+
+alias l='ls'
+alias la='ls -a'
+alias ll='ls -l'
+alias lampp='sudo /opt/lampp/./lampp '
+" >> /home/$USER/.bash_aliases;
+
 fi
+printf '\n'
