@@ -3,15 +3,16 @@
 SYS='\033[0;36m'
 OUT='\033[0;31m'
 
-# Run setter/<file-name>.bash
+# Run setter/<file-name>
 runSetter(){
     rS_setter_dir=/home/$USER/.personal_config/bin/setter
-    rS_setter_file=rS_setter_dir/$1.bash 
-    if [ -f rS_setter_file ]; then
-        chmod +x rS_setter_file
-        $setter_dir/./$1.bash
-        chmod -x rS_setter_file
+    rS_setter_file=$rS_setter_dir/$1
+    if [ -f $rS_setter_file ]; then
+        chmod +x $rS_setter_file
+        $rS_setter_dir/./$1
+        chmod -x $rS_setter_file
     else
+        echo $rS_setter_file;
         rS_setter=""
         message="setter not found !, \"Y\" to continue, \"n\" to quit, or type \"list\" to see setter list ? "
         runConfirmation false $rS_setter "\${message}"
