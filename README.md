@@ -1,7 +1,9 @@
-# .usr-settings
+# .personal_config
 my personal Gnome settings
 
 chmod +x makepath
 ./makepath
 
->> $ personal-config
+>>$ personal-config
+
+then follow the instructions
